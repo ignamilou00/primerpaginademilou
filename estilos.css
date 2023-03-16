@@ -1,0 +1,88 @@
+/* Estilos para la página de fútbol */
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 10px;
+}
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+header nav li:last-child {
+  margin-right: 0;
+}
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+section h2 {
+  margin-top: 0;
+}
+
+/* Noticias */
+article {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+article:last-child {
+  border-bottom: none;
+}
+article h3 {
+  margin-top: 0;
+}
+
+/* Equipos */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li a {
+  display: block;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+li a:hover {
+  background-color: #e2e2e2;
+}
+
+/* Pie de página */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
